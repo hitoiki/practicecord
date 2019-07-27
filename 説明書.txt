@@ -1,0 +1,11 @@
+cycle 配列の並びを一巡ずらすプログラム
+
+frog https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/を解いた
+
+lifegame 平面上の二次元配列で、隣接するマスの要素を数えるプログラム、不備が少しあるかも
+
+Main　バイナリギャップを測るプログラム
+
+template　普段使う雛形
+
+to be continued
