@@ -3,9 +3,6 @@ module Main where
 import Numeric
 import Data.Char
 
-n = 3
-m = 9
-
 main :: IO ()
 main = do
 
