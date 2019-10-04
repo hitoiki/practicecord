@@ -6,18 +6,13 @@ import Data.Char
 main :: IO ()
 main = do
 
-putStrLn "enter the a"
+--putStrLn "enter the a"
 a <- readLn
 
-putStrLn "enter the b,c"
+--putStrLn "enter the b,c"
 [b, c] <- map read . words <$> getLine
 
-putStrLn "enter the s"
+--putStrLn "enter the s"
 s <- getLine
 
-putStrLn $ show (a + b + c)
-putStrLn s
-
---exeで開いたときに待機する場所
-wait <- getChar
-putStrLn ""
+putStrLn $ show (a + b + c) ++ " " ++ s
